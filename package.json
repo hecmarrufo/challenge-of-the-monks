@@ -1,0 +1,39 @@
+{
+  "name": "challenge-of-the-monks",
+  "version": "1.0.0",
+  "description": "The ultimate challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "dev:watch": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hecmarrufo/challenge-of-the-monks.git"
+  },
+  "keywords": [
+    "challenge",
+    "puzzle",
+    "monks",
+    "sliding"
+  ],
+  "author": "Hector Marrufo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hecmarrufo/challenge-of-the-monks/issues"
+  },
+  "homepage": "https://github.com/hecmarrufo/challenge-of-the-monks#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^9.2.2",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
