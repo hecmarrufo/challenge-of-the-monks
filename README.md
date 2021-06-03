@@ -15,14 +15,19 @@ node -v
 npm -v
 ```
 ## Usage
-This will create a html containing the challenge of the monks
+This will create a html containing the challenge of the monks,
+
 compile using
 ```bash
 npm run build
 ```
-or run locally with
+then navigate to ./dist and open index.html on you local browser
+
+or you can also run the program locally with
 ```bash
+npm install
 npm run start
 ```
+it will then be hosted on [http://localhost:8080/]() unless it is being used by another service, please refer to you console log for more information
 ## Hosting
 The end product is being hosted on Netlify on the [https://challenge-of-the-monks.netlify.app/](https://challenge-of-the-monks.netlify.app/) Domain
