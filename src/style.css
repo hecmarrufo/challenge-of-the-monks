@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html {
+  background: url(https://i.imgur.com/Amrrn9R.jpg) no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+#title {
+  color: moccasin;
+  text-align: center;
+  display: flex column;
+}
+#instructions {
+  color: whitesmoke;
+  text-align: center;
+}
+.no-up-space {
+  margin-top: 0;
+}
+#main-container {
+  width: 100%;
+  float: left;
+  padding-top: 0px;
+}
+#challengeContainer {
+  background-color: rgba(224, 221, 221, 0.4);
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  width: auto;
+  float: left;
+  left: 50%;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -260px;
+  border-radius: 1.2%;
+  -moz-border-radius: 1.2%;
+  -webkit-border-radius: 1.2%;
+}
+#completeMessage::after {
+  content: attr(data-content);
+}
