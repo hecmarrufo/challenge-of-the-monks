@@ -31,3 +31,5 @@ npm run start
 it will then be hosted on [http://localhost:8080/]() unless it is being used by another service, please refer to you console log for more information
 ## Hosting
 The end product is being hosted on Netlify on the [https://challenge-of-the-monks.netlify.app/](https://challenge-of-the-monks.netlify.app/) Domain
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6a237b72-45ce-4268-b8c1-843152721c3d/deploy-status)](https://app.netlify.com/sites/challenge-of-the-monks/deploys)
