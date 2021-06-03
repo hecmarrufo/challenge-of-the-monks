@@ -16,8 +16,8 @@ import './style.css';
     image = new Image();
 
     constructor() {
-      this.rows = 2;
-      this.cols = 2;
+      this.rows = 4;
+      this.cols = 4;
       this.image.onload = this.initializeBoard.bind(this);
       this.image.src = PuzzleImage;
     }
